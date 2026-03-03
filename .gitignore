@@ -1,0 +1,12 @@
+.terraform/
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
+
+lambda_function.zip
+
+volume/
+
+.DS_Store
+__pycache__/
+*.pyc
