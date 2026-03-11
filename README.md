@@ -43,14 +43,12 @@ Monitor the real-time execution logs from the Lambda function:
 ```
 aws --endpoint-url=http://localhost:4566 logs tail /aws/lambda/s3-event-processor --follow
 ```
+
 ## 🧠 Key Learning Outcomes
-* Automated Provisioning: Used Terraform's archive_file to package application code on the fly.
-
-* Serverless Event-Driven Design: Implemented the aws_s3_bucket_notification resource to bridge storage and compute.
-
-* Cloud Observability: Configured and monitored CloudWatch Logs to debug serverless execution.
-
-* IAM & Permissions: Managed the least-privilege principle using aws_lambda_permission to allow S3 to invoke Lambda.
+- Automated Provisioning: Used Terraform's archive_file to package application code on the fly.
+- Serverless Event-Driven Design: Implemented the aws_s3_bucket_notification resource to bridge storage and compute.
+- Cloud Observability: Configured and monitored CloudWatch Logs to debug serverless execution.
+- IAM & Permissions: Managed the least-privilege principle using aws_lambda_permission to allow S3 to invoke Lambda.
 
 
 
